@@ -29,6 +29,9 @@ body {
                 color: white;
                 text-decoration-line: none;
             }
+            a:hover {
+                color: rgb(185, 185, 185);
+            }
         }
         }
         
