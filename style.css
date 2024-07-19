@@ -47,6 +47,15 @@ body {
     }
     button {
         background-color: #3882f6;
+        padding: 5px 30px;
+        border-radius: 5px;
+        color: white;
+        background-color:#3882f6;
+        border: solid 1px white;
+        box-shadow: 1px 1px 3px;
+    }
+    button:hover {
+        background-color: #8fb7f7;
     }
     h1 {
         font-size: 48px;
@@ -121,6 +130,7 @@ body {
         display: flex;
         justify-content: space-between;
         gap: 150px;
+        box-shadow: 1px 1px 3px black;
     }
     .call {
         color: white;
@@ -141,6 +151,10 @@ body {
             color: white;
             background-color:#3882f6;
             border: solid 1px white;
+            box-shadow: 1px 1px 3px;
+        }
+        button:hover {
+            background-color: #8fb7f7;
         }
     }
     
